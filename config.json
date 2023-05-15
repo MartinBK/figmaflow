@@ -1,0 +1,13 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "_ variables.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}
